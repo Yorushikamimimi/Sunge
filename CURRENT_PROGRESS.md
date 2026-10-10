@@ -20,6 +20,14 @@ README、AGENTS、本进度为项目主要维护入口；`assistant/PROTOCOL.md`
 
 真实使用的默认 `local-vault/` 尚未在主项目中建立，没有灌入测试数据。验收数据全部位于忽略的 `.local-checks/acceptance-project/local-vault/`，与公开示例及未来真实档案分开。完整版副本仅位于忽略的 `materials/local/`。
 
+## 2026-10-10 简介与检索入口更新
+
+按用户要求扩充 README 标题、开头与功能说明，明确“孙宇晨（孙哥 / Justin Sun）× 邵艾伦（Alan Shao）约四小时二十二分钟访谈”，覆盖自然对话、个人档案、生活记录、依据与更正、建议边界和跨对话恢复。保留“孙宇辰”的姓名辨认说明，正文使用正确姓名。用户确认“郭”为口误，不纳入内容。
+
+GitHub 仓库简介已扩充并通过 API 回读核对；已添加 14 个相关 Topics，包含 justin-sun、sun-yuchen、alan-shao、shao-ailun、four-hour-interview、AI 个人助手、生活记录、Agent 记忆与 Obsidian 等用途关键词。README 和本进度随 `docs: 完善项目简介与访谈检索关键词` 提交发布，最新哈希以 Git 为准。
+
+本轮按文档任务检查实际 diff、22 个公开清单文件、相对链接和远端简介/Topics；检查通过。沿用此前的框架运行验收，不因文案更新重跑独立助手会话。关键词已覆盖，实际搜索收录和排名仍未验证。
+
 ## 实际验证与证据等级
 
 | 项目 | 实际结果 | 范围与证据 |
