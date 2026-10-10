@@ -1,6 +1,6 @@
 # Sunge｜孙宇晨（孙哥）× 邵艾伦四小时访谈启发的 AI 个人档案
 
-用自然对话建立个人档案、记录生活与目标，让 Agent 在换对话后继续理解你的近况。
+受孙宇晨（孙哥）与邵艾伦四小时访谈启发，用自然对话建立个人档案、记录生活与目标，让 Agent 在换对话后从文件恢复近况。
 
 Sunge 是受 **孙宇晨（孙哥 / Justin Sun）与邵艾伦（Alan Shao）约四小时二十二分钟访谈**《对话孙宇晨：年轻人如何抓住 AI 时代的机会？》启发的**非官方开源 AI 个人档案与生活记录框架**。访谈中将 AI 接入饮食、睡眠、训练与日常决策的尝试，带来了一个具体问题：怎样让个人助手基于持续保存的信息，帮助用户回看生活、观察变化，并在新对话中接续，而不是每次从头介绍自己？
 
@@ -19,11 +19,21 @@ Sunge 是受 **孙宇晨（孙哥 / Justin Sun）与邵艾伦（Alan Shao）约�
 
 它适合希望尝试 **AI 个人助手、生活记录、个人档案与 Agent 跨对话记忆** 的人，也适合从孙哥与邵艾伦这场四小时访谈来到这里、希望把其中的 AI 使用思路变成可回看的日常流程的人。不要求用户每天记录全部领域，也不把休息或漏记变成欠账。
 
-## 访谈名称与检索关键词
+## 孙宇晨（孙哥）与邵艾伦四小时访谈：从摘要到个人助手
+
+### 想看这场访谈讲了什么？
+
+先读 [孙宇晨（孙哥）与邵艾伦四小时访谈原创摘要](materials/interview-summary.md)，再看 [原视频、来源与校对说明](materials/SOURCES.md)。摘要重点讨论 AI 生活记录、目标与行动、身体与精力、选择空间，以及 Sunge 如何把这些思路落实为可回看的档案。公开仓库不提供未经授权的访谈全文；OCR 和说话人归属仍有不确定性。
+
+### 想尝试孙哥访谈中提到的 AI 日常使用思路？
+
+从下面的“开始使用”建立自己的独立档案，用自然语言讲近况，由 Agent 保存实际提供的信息。Sunge 的具体实现是 **Markdown / Obsidian 个人档案、睡眠饮食等生活记录、学习工作目标和跨对话恢复**；相关规范见 [AI 个人助手操作协议](assistant/PROTOCOL.md)，保存后的样子见 [虚构个人档案示例](examples/fictional-vault/START_HERE.md)。
 
 相关名称与关键词：**孙宇晨、孙哥、Justin Sun、邵艾伦、邵艾伦 Alan、Alan Shao、四小时访谈、4 小时 22 分钟播客、AI 个人助手、个人档案、生活记录、Markdown、Obsidian、Agent 跨对话记忆**。
 
 如果你以“孙宇辰”检索这次访谈，这里指的是**孙宇晨（孙哥 / Justin Sun）**。Sunge 提供的是受访谈启发的个人助手框架和原创摘要；访谈完整版的转载权与校对边界见 [来源说明](materials/SOURCES.md)。
+
+Sunge is an unofficial AI personal archive and life logging framework inspired by the four-hour interview between **Justin Sun (Sun Ge) and Alan Shao**. Markdown and Obsidian-compatible files preserve user-reported context and support file-based Agent memory across conversations. The repository includes an original interview summary, blank templates and fictional examples.
 
 ## 开始使用
 
