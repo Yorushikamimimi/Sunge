@@ -1,0 +1,13 @@
+# Set before creating any private archive or copying third-party material.
+/local-vault/
+/materials/local/
+/.local-checks/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.obsidian/
+.env
+.env.*
+*.pem
+*.key
